@@ -13,38 +13,89 @@
 <body>
     <header class="header">
         <button class="recommendation">
-            <a href="BookRec.html">Find your next Book</a>
+            <a href="projectOne.html">📖 Home</a>
         </button>
         <button class="LogIn">Log in</button>
     </header>
     <h1>Tell us what you want: </h1>
     <ul class="RecChoices">
         <li class="RecList">Genre(s):
-            
-        <select id="RecOptions">
-            <option value="DropDown">Please choose a Genre</option>
-            <option value="Fiction">Fiction</option>
-            <option value="Non-fiction">Non-fiction</option>
-            <option value="Mystery/Thriller">Mystery/Thriller</option>
-            <option value="Fantasy">Fantasy</option>
-            <option value="Romance">Romance</option>
-            <option value="Business">Business</option>
-            <option value="Personal Development">Personal Development</option>
-            <option value="Music">Music</option>
-            <option value="Religion">Religion</option>
-            <option value="Education">Education</option>
-        </select>
+            <select id="RecOptions">
+                <option value="DropDown">Please choose a Genre</option>
+                <option value="Fiction">Fiction</option>
+                <option value="Non-fiction">Non-fiction</option>
+                <option value="Mystery/Thriller">Mystery/Thriller</option>
+                <option value="Fantasy">Fantasy</option>
+                <option value="Romance">Romance</option>
+                <option value="Business">Business</option>
+                <option value="Personal Development">Personal Development</option>
+                <option value="Music">Music</option>
+                <option value="Religion">Religion</option>
+                <option value="Education">Education</option>
+            </select>
         </li>
-        <li class="RecList">Author</li>
-        <li class="RecList">Tag(s)</li>
-        <li class="RecList">Platform</li>
-        <li class="RecList">Length</li>
-        <li class="RecList">Rating</li>
-        <li class="RecList">Number of Ratings</li>
-        <li class="RecList">Copies Sold</li>
-        <li class="RecList">Trigger Warning</li>
+        <li class="RecList">Author: </li>
+        <li class="RecList">Tag(s): </li>
+        <li class="RecList">Platform: 
+            <select id="RecOptions">
+                <option value="DropDown">Please choose a Platform</option>
+                <option value="Paperback">Paperback</option>
+                <option value="Hardcopy">Hardcopy</option>
+                <option value="E-book">E-book</option>
+                <option value="KU">Kindle Unlimited</option>
+            </select>
+        </li>
+            
+        <li class="RecList">Length: 
+            <select id="RecOptions">
+                <option value="DropDown">Please choose a Page Range</option>
+                <option value="Upto100">0 to 100 pages</option>
+                <option value="Upto200">0 to 200 pages</option>
+                <option value="Upto300">0 to 300 pages</option>
+                <option value="Upto400">0 to 400 pages</option>
+                <option value="Upto500">0 to 500 pages</option>
+                <option value="500andAbove">500+ pages</option>
+            </select>
+        </li>
+            
+        <li class="RecList">Rating: 
+            <select id="RecOptions">
+                <option value="DropDown">Please choose a Minimum Rating</option>
+                <option value="IDC">No Preference</option>
+                <option value="1Star">1 ⭐ and above</option>
+                <option value="2Stars">2 ⭐ and above</option>
+                <option value="3Stars">3 ⭐ and above</option>
+                <option value="4Stars">4 ⭐ and above</option>
+            </select>
+        </li>
+            
+        <li class="RecList">Number of Ratings: 
+            <select id="RecOptions">
+                <option value="DropDown">Please choose a Minimum Range</option>
+                <option value="IDC">No Preference</option>
+                <option value=">500">>= 500</option>
+                <option value=">1,000">>= 1,000</option>
+                <option value=">10,000">>= 10,000</option>
+                <option value=">50,000">>= 50,000</option>
+                <option value=">100,000">>= 100,000</option>
+            </select>
+        </li>
+            
+        <li class="RecList">Copies Sold: 
+            <select id="RecOptions">
+                <option value="DropDown">Please choose a Minimum Range</option>
+                <option value="IDC">No Preference</option>
+                <option value=">500">>= 500</option>
+                <option value=">1,000">>= 1,000</option>
+                <option value=">10,000">>= 10,000</option>
+                <option value=">50,000">>= 50,000</option>
+                <option value=">100,000">>= 100,000</option>
+            </select>
+        </li>
+            
+        <li class="RecList">Trigger Warning: </li>
     </ul>
-
+    <button class="GetRecommendation">Get your Recommendation 📚</button>
 
 
     <script src="app.js"></script>
