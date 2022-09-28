@@ -1,0 +1,79 @@
+h1
+{
+    text-align: center;
+    color:rgb(90, 99, 221); 
+
+}
+body
+{
+    margin: 0; 
+    font-family: arial;
+}
+a
+{
+    color: white; 
+    text-decoration: none; 
+}
+.header
+{
+    height: 40px;  
+    width: 100%; 
+    position: relative; 
+    background-color:rgb(158, 163, 228);
+}
+.LogIn
+{
+    height: 40px; 
+    padding: 0 50px; 
+    font-size: 1.3rem; 
+    background-color: rgb(158, 163, 228); 
+    color: white; 
+    border: none; 
+    right: 0;
+    position: fixed;
+    top:0; 
+    right:0;
+}
+.recommendation
+{
+    height: 40px; 
+    padding: 0 30px; 
+    font-size: 1.3rem;
+    background-color: rgb(158, 163, 228); 
+    color: white; 
+    border: none; 
+}
+.LogIn:hover
+{
+    border: 1px solid white; 
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+.recommendation:hover
+{
+    border: 1px solid white; 
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+.HomePageImage
+{
+    width: 900px; 
+    display: block;
+    margin: 0 auto; 
+}
+.RecChoices
+{
+    padding: 0; 
+    display: block;
+    margin: 0 auto; 
+}
+.RecList
+{
+    text-align: center;
+    color:rgb(158, 163, 228); 
+    padding: 10px 0; 
+}
+.GenresList
+{
+    color:rgb(158, 163, 228); 
+}
